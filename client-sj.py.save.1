@@ -4,7 +4,7 @@ import socket,pickle,os
 import simplejpeg as sj
 
 s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-s.setsockopt(socket.SOL_SOCKET,socket.SO_SNDBUF,6000000)
+s.setsockopt(socket.SOL_SOCKET,socket.SO_SNDBUF,15000000)
 server_ip = "192.168.101.6"
 server_port = 6666
 
